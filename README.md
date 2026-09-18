@@ -1,17 +1,17 @@
 # firebase_todo_list_app
 
-A new Flutter project.
+Firebase Cloud Firestore를 사용하는 Flutter Todo 애플리케이션입니다.
 
-## Getting Started
+## 주요 기능
 
-This project is a starting point for a Flutter application.
+- Todo 실시간 조회 및 추가
+- Slidable을 이용한 Todo 삭제
+- 삭제 목록 조회 및 Todo 복구
+- Firestore 서버 타임스탬프 기반 날짜 저장
 
-A few resources to get you started if this is your first Flutter project:
+## 실행
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
